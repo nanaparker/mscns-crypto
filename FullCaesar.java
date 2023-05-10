@@ -5,10 +5,10 @@ public class FullCaesar {
     public static void main(String[] args) throws Exception {
         Scanner text = new Scanner(System.in);
 
-        System.out.println("Enter the plain text: ");
+        System.out.print("Enter the plain text: ");
         String plainText = text.nextLine();
 
-        System.out.println("Enter the key: ");
+        System.out.print("Enter the key: ");
         int key = text.nextInt();
 
         System.out.println("----------------------");
